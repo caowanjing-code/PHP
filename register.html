@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>注册用户</title>
+        <link rel="stylesheet" href="./weibo/css/login-base.css">
+        <link rel="stylesheet" href="./weibo/css/login.css">
+        <link rel="stylesheet" href="./weibo/download_2/font_2775017_1f6ofa8482l/iconfont.css">
+    </head>
+    
+    <body>
+        <div class="loginBox">
+            <h1>注册页面</h1>
+        <form action = "register.php" method = "post"  class="form-login">
+            <div class="item">
+                <span class="icon-user"></span>
+                <div class="text">
+                
+                <input type="text" name="username" class="username-res"
+                placeholder="请输入用户名">
+            </div>
+        </div>
+            <div class="item">
+                <span class="icon-iPhone"> </span>
+
+                <div class="text">
+                <input type="text" name="telphone" class="telphone-res" placeholder="请输入手机号码">
+            </div> 
+        </div>
+
+        <div class="item">
+            <span class="icon-password1"></span>
+            <div class="text">
+                <input type="text" name="password" class="password-res" placeholder="请设置密码">
+            </div>
+        </div>
+
+        <div class="item">
+            <span class="icon-password1"></span>
+            <div class="text">
+                <input type = "text" name = "re_password" class="re_password-res"
+                placeholder="请再次输入密码">
+            </div>
+            </div>
+            <div class="item_2">
+                <input type="submit" value="立即注册" name="subr" class="btn1">
+            </div>
+</form>
+</div>
+<script src="./weibo/jquery-1.12.4.js">
+</script>
+<script src="./weibo/js/judge.js">
+</script>
+</body>
+</html>
